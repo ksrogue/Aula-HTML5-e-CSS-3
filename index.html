@@ -1,0 +1,57 @@
+<!DOCTYPE html> <!--informa que se trata de um documento html-->
+
+<html lang="pt-br"> <!--todo nosso conteúdo estará dentro desse elemento-->
+
+    <head> <!--metadados da página, utf-8 é o decode padrão brasileiro-->
+        <meta charset="utf-8">
+        <title>Minha Página</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body> <!--o corpo do documento-->
+
+        <nav> <!--elemento de navegação-->
+            <p>Minha Página</p>
+            <ul> <!--elemento de lista não ordenada-->
+                <li><a href="#serviços">SERVIÇOS</a></li>
+                <li><a href="#clientes">CLIENTES</a></li>               
+                <li><a href="#contato">CONTATO</a></li>
+            </ul>
+        </nav>
+
+        <p>Minha primeira página</p> <!--p é o elemento que representa paragrafos-->
+        <header>
+            <h1>Minha página</h1>
+            <p>
+                Oferecemos o desenvolvimento dos melhores sites e apps para a sua empresa</p>
+        </header>
+
+        <section id="serviços"> <!--usado para separar seções de conteúdo-->
+            <h2>SERVIÇOS</h2>
+            <p>Oferecemos os melhores serviços em desenvolvimento de sites e aplicativos.</p>
+            <div> <!--usado para dividir os elementos da página-->
+                <img src="programming.jpg" width="300px">
+            </div>
+
+        </section>
+
+        <section id="clientes" class="clientes">
+            <h2 class="clientes_txt">CLIENTES</h2>
+            <p class="clientes_txt">Nossos clientes ficaram muito satisfeitos com o nosso serviço.</p>
+            <img src="lorena.jpg" width="150px"> 
+            <img src="vic.jpg" width="150px"> 
+            <img src="elias.jpg" width="150px">
+        </section>
+    
+        <footer> <!--o rodapé do documento-->            
+            <section id="contato">
+                <h2>CONTATO</h2>
+                <img src="David.jpg" width="100px" class="ksrogue">
+                <ul>
+                    <li><a href="https://www.instagram.com/ks.rogue" target="_blank">instagram</a></li>
+                </ul>
+                <p>Desenvolvido por David William</p>
+            </section>
+        </footer>
+    </body>
+</html>

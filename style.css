@@ -1,0 +1,22 @@
+body {
+    background: rgb(219, 255, 219);
+}
+
+img {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+
+.ksrogue {
+    border-radius: 50%;
+}
+
+.clientes {
+    border: 2px solid black; 
+    margin-right: 500px;   
+}
+
+.clientes_txt {
+    margin-left: 10px;
+}
